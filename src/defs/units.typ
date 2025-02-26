@@ -15,6 +15,9 @@
 // Derived units
 #let becquerel = $B q$
 #let degreeCelsius = $degree C$
+#let degreeFahrenheit = $degree F$
+#let celsius = degreeCelsius
+#let fahrenheit = degreeFahrenheit
 #let coulomb = $C$
 #let farad = $F$
 #let gray = $G y$
@@ -224,6 +227,10 @@
   degree: sym.degree,
 
   degreeCelsius: degreeCelsius,
+  degreeFahrenheit: degreeFahrenheit,
+
+  celsius: degreeCelsius,
+  fahrenheit: degreeFahrenheit,
 
   coulomb: coulomb,
   C: coulomb,
